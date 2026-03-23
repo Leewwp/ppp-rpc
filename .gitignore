@@ -1,0 +1,83 @@
+### default ignore template
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**
+!**/src/test/**
+
+Dockerfile-**
+logs
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+
+### VS Code ###
+.vscode/
+
+### default ignore template
+### gradle ###
+.gradle
+/build/
+!gradle/wrapper/gradle-wrapper.jar
+
+### Example user template template
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+bin/
+
+### IntelliJ IDEA ###
+rebel.xml
+
+### NetBeans ###
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### maven ###
+*.war
+*.ear
+*.zip
+*.tar
+*.tar.gz
+*.versionsBackup
+
+### logs ###
+/logs/
+*.log
+
+### temp ignore ###
+*.cache
+*.diff
+*.patch
+*.tmp
+*.java~
+*.properties~
+*.xml~
+
+### system ignore ###
+.DS_Store
+Thumbs.db
+Servers
+.metadata
+.flattened-pom.xml
